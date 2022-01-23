@@ -32,15 +32,14 @@ go run main.go
 │   ├── pkg          
 │   ├── src          
 │       └── first_tutorial
-            └── main.go  
-        └── github.com
-        └── mux
-        └── go.mod
-        └── go.sum
+│            └── main.go  
+│        └── github.com
+│        └── mux
+│        └── go.mod
+│        └── go.sum
 
 ```
 
-## API
 
 ### /read
 - **GET** : Get the existing network configuration
