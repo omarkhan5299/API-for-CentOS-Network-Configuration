@@ -40,6 +40,7 @@ go run main.go
 
 ```
 
+## API
 
 ### /read
 - `GET` : Get the existing network configuration
