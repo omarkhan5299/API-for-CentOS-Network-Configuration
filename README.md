@@ -5,8 +5,6 @@ By: **Mohammed Omar Khan**
 
 Time spent: **10** hours spent in total
 
-## API
-
 The following **required** functionality is complete:
 
 * [x] User can display the existing network configuration.
@@ -20,31 +18,38 @@ Gorilla/mux is required to run the API. Run the command below to install the pac
 ```
 go get -u github.com/gorilla/mux
 ```
+To run the code, navigate to go/src/first_tutorial and execute main.go
+```
+cd go/src/first_tutorial
+```
+```
+go run main.go
+```
+## Structure 
+```
+├── go
+│   ├── bin
+│   ├── pkg          
+│   ├── src          
+│       └── first_tutorial
+            └── main.go  
+        └── github.com
+        └── mux
+        └── go.mod
+        └── go.sum
 
-## Video Walkthrough
+```
 
-Here's a walkthrough of implemented user stories:
+## API
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+### /read
+- **GET** : Get the existing network configuration
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+### /create
+- **POST** : Create a brand new network configuration
 
-## Notes
+### /delete/:field
+- **DELETE** : Delete a specific field of the existing configuration
 
-Describe any challenges encountered while building the app.
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+### /update/:field
+- **POST** : Update a specific field in the existing netowkr configuration
