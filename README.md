@@ -42,13 +42,13 @@ go run main.go
 
 
 ### /read
-- **GET** : Get the existing network configuration
+- `GET` : Get the existing network configuration
 
 ### /create
-- **POST** : Create a brand new network configuration
+- `POST` : Create a brand new network configuration
 
 ### /delete/:field
-- **DELETE** : Delete a specific field of the existing configuration
+- `DELETE` : Delete a specific field of the existing configuration
 
 ### /update/:field
-- **POST** : Update a specific field in the existing netowkr configuration
+- `POST` : Update a specific field in the existing netowkr configuration
