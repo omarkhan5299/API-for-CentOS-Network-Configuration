@@ -1,4 +1,4 @@
-# REST API-for-CentOS-Network-Configuration
+# REST API-for-CentOS-Network-Configuratio
 A REST API developed using GoLang (gorilla/mux) that allows users to configure the network settings for CentOS.
 
 By: **Mohammed Omar Khan**
